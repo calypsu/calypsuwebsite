@@ -6,6 +6,11 @@ html    {
     color: #fff;
 }
 
+p {
+  font-size: 22px;
+  line-height: 30px;
+}
+
 h1 {
     font-size: 5em;
     font-weight: light;
@@ -59,6 +64,14 @@ section {
   background-image: url(fundanidea.png);
   background-position: center;
   background-size: cover;
+  background-repeat: no-repeat;
+  border-top: 1px solid rgba(255, 255, 255, 0.15);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+  height: 70vh;
+}
+
+.max-width-50-desktop {
+  max-width: 50%;
 }
 
 .team-profile {
@@ -102,6 +115,11 @@ section {
 .menu li {
     padding: 10px 20px;
     list-style-type: none;
+    cursor: pointer;
+}
+
+.menu li:hover {
+  background-color: rgba(128, 128, 128, 0.23);
 }
 
 .cover  {
