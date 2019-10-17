@@ -170,6 +170,19 @@ section {
   padding: 10px;
 }
 
+.contact-page-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.message-container {
+  text-align: left;
+  border-left: 2px solid white;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+}
+
 .mobile-window {
     display: none;
 }
