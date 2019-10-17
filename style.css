@@ -60,8 +60,60 @@ section {
     justify-content: space-between;
 }
 
+.item-1 {
+  
+  background-image: url(img/works/cds.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.item-2 {
+  background-image: url(img/works/hedgehomes.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.item-3 {
+  background-image: url(img/works/veriscript.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.item-4 {
+  background-image: url(img/works/fastconnect.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.item-5 {
+  background-image: url(img/works/fundanidea.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.item-6 {
+  background-image: url(img/works/world5.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.item-7 {
+  background-image: url(img/works/fundonomics.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 .project-1-bg {
-  background-image: url(fundanidea.png);
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.56), rgba(0, 0, 0, 0.91)), url(fundanidea.png);
+        /* opacity: .6;  */
+  /* background-image: url(fundanidea.png); */
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -182,6 +234,7 @@ section {
 
 .single-item {
   height: 350px;
+  margin: 10px;
 }
 
 .single-item h4 {
