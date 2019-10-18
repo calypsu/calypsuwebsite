@@ -228,8 +228,14 @@ section {
 .standard-button {
     border: 1px solid #000000;
     border-radius: 30px;
-    padding: 10px 15px;
+    padding: 10px 30px;
     background: #fff;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+abutton.a:hove {
+  color: #000 !important;
 }
 
 .single-item {
@@ -536,6 +542,10 @@ section {
 
     .hid-mob {
         display: none;
+    }
+
+    .max-width-50-desktop {
+      max-width: 100%;
     }
 
 .client-grid-container {
