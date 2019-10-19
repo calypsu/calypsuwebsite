@@ -175,6 +175,8 @@ section {
     height: 15vh;
     display: flex;
     justify-content: space-between;
+    max-width: 90%;
+    margin: auto;
 }
 
 .logo {
@@ -593,5 +595,9 @@ abutton.a:hover {
 
 .client-grid-container div{
   justify-content: center !important;
+}
+
+.d-only {
+  display: none;
 }
 }
